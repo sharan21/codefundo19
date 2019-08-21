@@ -1,0 +1,104 @@
+<html>
+
+<head>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="./form.js"></script>
+
+        
+
+
+
+</head>
+
+<body>
+
+        <form id="myform" type="post" onsubmit="console.log()">
+                <fieldset>
+                  <legend>Voter Description</legend>
+                  <p>We would love to hear from you. Please fill out this form</p>
+                  <div class="elements">
+                    <label for="name">Name :</label>
+                    <input  required="required" type="text"  value="Girish Kumar Santhu" name="fname"  size="20"  />
+                  </div>
+                  <div class="elements">
+                      <label for="pro"> State of Residence :</label>
+                      <select name="state">
+                      <option value="1">Tamil Nadu</option>
+                      <option value="2" selected="selected">Karnataka</option>
+                      <option value="3" selected="selected">Kerala</option>
+                      <option value="4" selected="selected">Goa</option>
+                      <option value="5" selected="selected">Hyderabad</option>
+                      <option value="6" selected="selected">Maharashtra</option>
+                      <option value="7" selected="selected">MP</option>
+                      <option value="8" selected="selected">UP</option>
+                      </select>
+                  </div>  
+                  <div class="elements">
+                    <label for="Age">Age :</label>
+                    <input required="required" type="number" value="32" id="age" name="age" size="10" />
+                  </div>  
+                  <div class="elements">
+                      <label for="Age">Income per year :</label>
+                      <input required="required" type="number" value="32" id="income" name="income" size="10" />
+                    </div>  
+                  <div class="elements">
+                    <label for="pro"> Profession :</label>
+                    <select name="professions">
+                    <option value="1">Student</option>
+                    <option value="2" selected="selected">STEM</option>
+                    <option value="3" selected="selected">Non-Stem</option>
+                    <option value="4" selected="selected">Army</option>
+                    <option value="5" selected="selected">Journalism</option>
+                    <option value="6" selected="selected">Agriculture</option>
+                    <option value="7" selected="selected">Business-owner</option>
+                    <option value="8" selected="selected">Unemployed</option>
+                    </select>
+                  </div>  
+                  <div class="elements">
+                      <label for="pro"> Religion :</label>
+                      <select name="religion">
+      
+                      <option value="1" selected="selected">Hindu</option>
+                      <option value="2" >Muslim</option>
+                      <option value="3" >Jain</option>
+                      <option value="4" >Christian</option>
+                      <option value="5" >Sikh</option>
+                      <option value="6" >Other</option>
+                      <option value="7">Prefer not to say</option>
+                      </select>
+      
+                    </div>      
+                  <div class="elements">
+                  <label for="Gender">Gender: </label>
+                    <input type="radio" name="gender" value="1" checked="checked" id="r1"> Male 
+                    <input type="radio" name="gender" value="2" id="r2"> Female 
+                    <input type="radio" name="gender" value="3" id="r2"> Non-Binary
+                    <input type="radio" name="gender" value="4" id="r2"> Prefer not to say
+                  </div>  
+      
+                  <div class="elements">
+                      <label for="pro"> Prefered Candidate :</label>ç
+                      <select name="prefered-candidate">
+                      <option value="1">Candidate 1</option>
+                      <option value="2">Candidate 2</option>
+                      <option value="3">Prefer not to say</option>
+                      
+                      </select>
+                    </div>  
+                  
+              
+                  <div class="submit">
+                    <input type="submit" id="btn" name="btn" class="btn" value="Submit" />
+                  </div>
+      
+      
+                
+      
+                </fieldset>
+              </form>
+
+
+
+</body>
+</html>
